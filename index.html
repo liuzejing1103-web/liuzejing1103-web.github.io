@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="刘泽靖的个人品牌中枢：经济学、AI、行为科学、内容影响力与产品设计交叉的数字空间。"
+    />
+    <title>刘泽靖 | Economics x AI x Behavior</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <canvas class="signal-canvas" id="signalCanvas" aria-hidden="true"></canvas>
+    <div class="noise-layer" aria-hidden="true"></div>
+    <div class="progress-track" aria-hidden="true">
+      <div class="progress-bar"></div>
+    </div>
+
+    <header class="topbar" data-nav>
+      <a class="brand-mark magnetic" href="#home" aria-label="返回首页">
+        <span>LZJ</span>
+        <span>刘泽靖</span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#world">World</a>
+        <a href="#signals">Signals</a>
+        <a href="#trajectory">Trajectory</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-action magnetic" href="assets/liuzejing-resume.docx" download>
+        CV
+      </a>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" data-parallax="0.16">
+          <img src="assets/liuzejing-portrait.jpg" alt="刘泽靖肖像" />
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow reveal is-visible">Personal Brand Operating System</p>
+          <h1 id="hero-title" class="hero-title reveal is-visible">
+            <span>刘泽靖</span>
+          </h1>
+          <p class="hero-line reveal is-visible">
+            Economics x AI x Behavioral Systems x Content Influence
+          </p>
+          <p class="hero-text reveal is-visible">
+            以产品设计为入口，把 AI 工具、行为观察、内容表达与项目管理能力整合成一个可探索的个人研究场。
+          </p>
+        </div>
+        <div class="hero-index reveal is-visible" aria-label="核心身份">
+          <span>01 / AI-assisted creation</span>
+          <span>02 / Behavioral design</span>
+          <span>03 / Cultural intelligence</span>
+        </div>
+        <a class="scroll-cue magnetic" href="#world" aria-label="进入下一屏">
+          <span></span>
+        </a>
+      </section>
+
+      <section class="ticker" aria-label="研究关键词">
+        <div class="ticker-track">
+          <span>ECONOMICS OF ATTENTION</span>
+          <span>AI-ASSISTED CREATION</span>
+          <span>BEHAVIORAL SYSTEMS</span>
+          <span>CONTENT INFLUENCE</span>
+          <span>PRODUCT DESIGN</span>
+          <span>CULTURAL INTELLIGENCE</span>
+          <span>ECONOMICS OF ATTENTION</span>
+          <span>AI-ASSISTED CREATION</span>
+          <span>BEHAVIORAL SYSTEMS</span>
+          <span>CONTENT INFLUENCE</span>
+          <span>PRODUCT DESIGN</span>
+          <span>CULTURAL INTELLIGENCE</span>
+        </div>
+      </section>
+
+      <section class="world section-band" id="world" aria-labelledby="world-title">
+        <div class="section-kicker reveal">Identity Field</div>
+        <div class="world-layout">
+          <div class="world-copy">
+            <h2 id="world-title" class="section-title reveal">
+              一个青年研究者的多重坐标。
+            </h2>
+            <p class="section-lead reveal">
+              不是把履历排成一页，而是把思考方式拆成四个持续运转的系统：经济学视角、AI 协作、行为设计和内容影响力。
+            </p>
+          </div>
+          <div class="identity-console reveal">
+            <div class="identity-map" aria-label="身份坐标选择">
+              <button class="identity-button is-active" type="button" data-persona="economics">
+                <span>Economics</span>
+                <small>Attention / Incentive</small>
+              </button>
+              <button class="identity-button" type="button" data-persona="ai">
+                <span>AI</span>
+                <small>Tools / Research</small>
+              </button>
+              <button class="identity-button" type="button" data-persona="behavior">
+                <span>Behavior</span>
+                <small>Choice / Friction</small>
+              </button>
+              <button class="identity-button" type="button" data-persona="content">
+                <span>Content</span>
+                <small>Signal / Narrative</small>
+              </button>
+            </div>
+            <article class="persona-detail" aria-live="polite">
+              <p class="detail-label">Active Lens</p>
+              <h3>经济学视角</h3>
+              <p>
+                关注注意力、激励结构与平台环境如何改变人的选择。用设计项目做微观观察，用 AI 工具提高信息整合与推演效率。
+              </p>
+              <div class="detail-tags">
+                <span>Attention</span>
+                <span>Incentives</span>
+                <span>Decision Context</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="signals section-band dark" id="signals" aria-labelledby="signals-title">
+        <div class="section-kicker reveal">Evidence Signals</div>
+        <div class="split-heading">
+          <h2 id="signals-title" class="section-title reveal">可验证的增长曲线。</h2>
+          <p class="section-lead reveal">
+            学业、竞赛、组织协作和 AI 辅助设计经验共同构成这个网站的事实底座。
+          </p>
+        </div>
+        <div class="metric-grid">
+          <article class="metric-card reveal" data-tilt>
+            <span class="metric-number">4.03</span>
+            <span class="metric-unit">/ 5.0 GPA</span>
+            <p>专业排名前 3%，连续保持专业前列成绩。</p>
+          </article>
+          <article class="metric-card reveal" data-tilt>
+            <span class="metric-number">Top</span>
+            <span class="metric-unit">1 in major</span>
+            <p>2023-2024 与 2024-2025 学年均获校级奖学金并保持专业第一。</p>
+          </article>
+          <article class="metric-card reveal" data-tilt>
+            <span class="metric-number">AI</span>
+            <span class="metric-unit">National II</span>
+            <p>全球校园人工智能算法精英大赛算法主题赛道国家二等奖、省级一等奖。</p>
+          </article>
+          <article class="metric-card reveal" data-tilt>
+            <span class="metric-number">PM</span>
+            <span class="metric-unit">Innovation Center</span>
+            <p>青年科技创新中心项目管理部负责人，统筹创新创业项目节奏与复盘。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="research section-band" aria-labelledby="research-title">
+        <div class="section-kicker reveal">Research Frames</div>
+        <div class="research-grid">
+          <div>
+            <h2 id="research-title" class="section-title reveal">
+              将设计训练转译为研究问题。
+            </h2>
+            <p class="section-lead reveal">
+              产品设计、人机工程与非遗文创项目经验，正在被重新组织为关于人、技术、文化和市场的交叉议题。
+            </p>
+          </div>
+          <div class="frame-stack">
+            <article class="frame-row reveal">
+              <span>01</span>
+              <h3>注意力经济</h3>
+              <p>内容如何获得信任，平台如何塑造偏好，个体如何在信息噪声里建立判断力。</p>
+            </article>
+            <article class="frame-row reveal">
+              <span>02</span>
+              <h3>AI 协作系统</h3>
+              <p>用 ChatGPT、Gemini、Lovart 等工具进行资料整合、视觉推演和方案优化。</p>
+            </article>
+            <article class="frame-row reveal">
+              <span>03</span>
+              <h3>行为科学叙事</h3>
+              <p>从人机工程与产品体验出发，研究选择成本、行动摩擦与情绪反馈。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="trajectory section-band dark" id="trajectory" aria-labelledby="trajectory-title">
+        <div class="section-kicker reveal">Trajectory</div>
+        <div class="timeline-layout">
+          <div class="timeline-sticky">
+            <h2 id="trajectory-title" class="section-title reveal">成长轨迹不是履历，是系统升级。</h2>
+            <p class="section-lead reveal">
+              每个阶段都沉淀一种能力：学习力、组织力、项目力、表达力，以及把复杂信息变成结构化成果的能力。
+            </p>
+          </div>
+          <div class="timeline-list">
+            <article class="timeline-item reveal">
+              <time>2023.09 - 2027.06</time>
+              <h3>湛江科技学院 / 产品设计 本科</h3>
+              <p>核心课程覆盖产品设计程序与方法、视觉表达、人机工程、家电设计、非遗文创设计、家具设计等。</p>
+            </article>
+            <article class="timeline-item reveal">
+              <time>2023.09 - 2024.12</time>
+              <h3>校学生会 / 学习部工作人员</h3>
+              <p>参与学风建设、讲座筹办、活动策划、现场协调与资料归档，训练跨部门沟通和执行能力。</p>
+            </article>
+            <article class="timeline-item reveal">
+              <time>2024.12 - 2025.12</time>
+              <h3>青年科技创新中心 / 项目管理部负责人</h3>
+              <p>统筹创新创业项目规划、进度管理、资源整合、成果汇报与阶段复盘。</p>
+            </article>
+            <article class="timeline-item reveal">
+              <time>2025.12 - 2026.12</time>
+              <h3>学生助理 / 辅导员助理</h3>
+              <p>承担事务管理、信息统计、材料整理和师生沟通支持，提升应变与责任意识。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof section-band" aria-labelledby="proof-title">
+        <div class="section-kicker reveal">Proof Archive</div>
+        <div class="split-heading">
+          <h2 id="proof-title" class="section-title reveal">奖项与工具链。</h2>
+          <p class="section-lead reveal">
+            这些不是终点，而是个人系统里已经跑通的模块。
+          </p>
+        </div>
+        <div class="archive-grid">
+          <article class="archive-block reveal">
+            <h3>Honors</h3>
+            <ul>
+              <li>2024-2025 学年校级特等奖学金，专业排名第一</li>
+              <li>2023-2024 学年校级一等奖学金，专业排名第一</li>
+              <li>全球校园人工智能算法精英大赛国家二等奖、省级一等奖</li>
+              <li>粤港澳大湾区大学生艺术作品大赛数智创新类省级二等奖</li>
+              <li>第十五届“挑战杯”广东大学生创业计划竞赛省级铜奖</li>
+            </ul>
+          </article>
+          <article class="archive-block reveal">
+            <h3>Toolchain</h3>
+            <ul>
+              <li>Figma / Illustrator / Photoshop 图文排版与视觉表达</li>
+              <li>Rhino / Proe / Keyshot 三维建模与渲染</li>
+              <li>ChatGPT / Gemini / Lovart AI 辅助研究与创意生成</li>
+              <li>Word / Excel / PPT 成果整理、汇报呈现与文案编辑</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-band dark" id="contact" aria-labelledby="contact-title">
+        <div class="contact-layout">
+          <div>
+            <p class="section-kicker reveal">Open Channel</p>
+            <h2 id="contact-title" class="section-title reveal">让研究、设计与内容形成新的合作场。</h2>
+          </div>
+          <div class="contact-actions reveal">
+            <a class="contact-link magnetic" href="mailto:2786873247@qq.com">
+              2786873247@qq.com
+            </a>
+            <a class="contact-link magnetic" href="tel:18125335345">
+              18125335345
+            </a>
+            <p>广东省珠海市 / Product Design / AI-assisted Research</p>
+          </div>
+        </div>
+        <footer class="site-footer">
+          <span>© 2026 Liu Zejing</span>
+          <span>Economics x AI x Behavior x Content</span>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
